@@ -1,0 +1,30 @@
+body {
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1664261910581-ac3334994d32?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+h2 {
+    font-weight: 3rem;
+    font-size: 2rem;
+}
+
+.clock {
+    display: flex;
+    font-size: 3rem;
+    font-weight: 3rem;
+}
+
+.clock span {
+    display: flex;
+    color: darkgreen;
+    background-color: darkblue;
+    opacity: .8;
+}
